@@ -600,7 +600,6 @@ Testing changes
 - #11952 `9ab9963` univalue: Bump subtree (MarcoFalke)
 - #12367 `09fc859` Fix two fast-shutdown bugs (TheBlueMatt)
 - #12422 `4d54e7a` util: Make LockDirectory thread-safe, consistent, and fix OpenBSD 6.2 build (laanwj)
-- #482 `5c8e26d` Litecoin: Basic changes for v0.16 release (thrasher-)
 
 Credits
 =======
@@ -619,9 +618,7 @@ Thanks to everyone who directly contributed to this release:
 - romanornr
 - shaolinfry
 - spl0i7
-- stedwms
 - ultragtx
 - VKoskiv
 - voidmain
-- wbsmolen
 - xinxi
