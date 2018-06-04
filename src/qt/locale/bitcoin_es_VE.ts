@@ -142,8 +142,8 @@
         <translation>Reindexando bloques en el disco...</translation>
     </message>
     <message>
-        <source>Send coins to a Litecoin address</source>
-        <translation>Enviar monedas a una dirección Litecoin</translation>
+        <source>Send coins to a kh69coin address</source>
+        <translation>Enviar monedas a una dirección kh69coin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -158,8 +158,8 @@
         <translation>Abre la consola de depuración y diágnostico</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>kh69coin</source>
+        <translation>kh69coin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -186,12 +186,12 @@
         <translation>Encriptar las llaves privadas que pertenecen a tu billetera</translation>
     </message>
     <message>
-        <source>Sign messages with your Litecoin addresses to prove you own them</source>
-        <translation>Firma mensajes con tus direcciones Litecoin para probar que eres dueño de ellas</translation>
+        <source>Sign messages with your kh69coin addresses to prove you own them</source>
+        <translation>Firma mensajes con tus direcciones kh69coin para probar que eres dueño de ellas</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
-        <translation>Verificar mensajes para asegurar que estaban firmados con direcciones Litecoin especificas</translation>
+        <source>Verify messages to ensure they were signed with specified kh69coin addresses</source>
+        <translation>Verificar mensajes para asegurar que estaban firmados con direcciones kh69coin especificas</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -437,8 +437,8 @@
         <translation>Usa un directorio de datos personalizado:</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>kh69coin</source>
+        <translation>kh69coin</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -708,8 +708,8 @@
         <translation>Correr en segundo plano como daemon y aceptar comandos</translation>
     </message>
     <message>
-        <source>Litecoin Core</source>
-        <translation>Litecoin Core</translation>
+        <source>kh69coin Core</source>
+        <translation>kh69coin Core</translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

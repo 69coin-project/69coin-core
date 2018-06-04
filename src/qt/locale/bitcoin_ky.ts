@@ -38,8 +38,8 @@
         <translation>Билдирүүнү &amp;текшерүү...</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>kh69coin</source>
+        <translation>kh69coin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -101,8 +101,8 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>kh69coin</source>
+        <translation>kh69coin</translation>
     </message>
     <message>
         <source>Error</source>
