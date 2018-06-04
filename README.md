@@ -1,21 +1,21 @@
-kh69coin Core integration/staging tree
+69coin Core integration/staging tree
 =====================================
 
 [![Build Status](https://travis-ci.org/kh69coin-project/kh69coin.svg?branch=master)](https://travis-ci.org/kh69coin-project/kh69coin)
 
-https://kh69coin.org
+https://69coin.net
 
-What is kh69coin?
+What is 69coin?
 ----------------
 
-kh69coin is an experimental digital currency that enables instant payments to
+69coin is an experimental digital currency that enables instant payments to
 anyone, anywhere in the world. kh69coin uses peer-to-peer technology to operate
 with no central authority: managing transactions and issuing money are carried
 out collectively by the network. kh69coin Core is the name of open source
 software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the kh69coin Core software, see [https://kh69coin.org](https://kh69coin.org).
+the 69coin Core software, see [https://69coin.net](https://69coin.net).
 
 License
 -------
