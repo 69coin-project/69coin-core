@@ -44,17 +44,17 @@ from the root of the repository.
 
 **Note**: You only need Berkeley DB if the wallet is enabled (see the section *Disable-Wallet mode* below).
 
-Build Litecoin Core
+Build kh69coin Core
 ------------------------
 
-1. Clone the litecoin source code and cd into `litecoin`
+1. Clone the kh69coin source code and cd into `kh69coin`
 
-        git clone https://github.com/litecoin-project/litecoin
-        cd litecoin
+        git clone https://github.com/kh69coin-project/kh69coin
+        cd kh69coin
 
-2.  Build litecoin-core:
+2.  Build kh69coin-core:
 
-    Configure and build the headless litecoin binaries as well as the GUI (if Qt is found).
+    Configure and build the headless kh69coin binaries as well as the GUI (if Qt is found).
 
     You can disable the GUI build by passing `--without-gui` to configure.
 
@@ -76,44 +76,44 @@ Build Litecoin Core
 
     or
 
-        cd ~/litecoin/src
-        cp litecoind /usr/local/bin/
-        cp litecoin-cli /usr/local/bin/
+        cd ~/kh69coin/src
+        cp kh69coind /usr/local/bin/
+        cp kh69coin-cli /usr/local/bin/
 
 Running
 -------
 
-Litecoin Core is now available at `./src/litecoind`
+kh69coin Core is now available at `./src/kh69coind`
 
 Before running, it's recommended you create an RPC configuration file.
 
-    echo -e "rpcuser=litecoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Litecoin/litecoin.conf"
+    echo -e "rpcuser=kh69coinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/kh69coin/kh69coin.conf"
 
-    chmod 600 "/Users/${USER}/Library/Application Support/Litecoin/litecoin.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/kh69coin/kh69coin.conf"
 
-The first time you run litecoind, it will start downloading the blockchain. This process could take several hours.
+The first time you run kh69coind, it will start downloading the blockchain. This process could take several hours.
 
 You can monitor the download process by looking at the debug.log file:
 
-    tail -f $HOME/Library/Application\ Support/Litecoin/debug.log
+    tail -f $HOME/Library/Application\ Support/kh69coin/debug.log
 
 Other commands:
 -------
 
-    ./src/litecoind -daemon # Starts the litecoin daemon.
-    ./src/litecoin-cli --help # Outputs a list of command-line options.
-    ./src/litecoin-cli help # Outputs a list of RPC commands when the daemon is running.
+    ./src/kh69coind -daemon # Starts the kh69coin daemon.
+    ./src/kh69coin-cli --help # Outputs a list of command-line options.
+    ./src/kh69coin-cli help # Outputs a list of RPC commands when the daemon is running.
 
 Using Qt Creator as IDE
 ------------------------
-You can use Qt Creator as an IDE, for litecoin development.
+You can use Qt Creator as an IDE, for kh69coin development.
 Download and install the community edition of [Qt Creator](https://www.qt.io/download/).
 Uncheck everything except Qt Creator during the installation process.
 
 1. Make sure you installed everything through Homebrew mentioned above
 2. Do a proper ./configure --enable-debug
 3. In Qt Creator do "New Project" -> Import Project -> Import Existing Project
-4. Enter "litecoin-qt" as project name, enter src/qt as location
+4. Enter "kh69coin-qt" as project name, enter src/qt as location
 5. Leave the file selection as it is
 6. Confirm the "summary page"
 7. In the "Projects" tab select "Manage Kits..."

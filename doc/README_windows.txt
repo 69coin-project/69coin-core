@@ -1,9 +1,9 @@
-Litecoin Core
+kh69coin Core
 =============
 
 Intro
 -----
-Litecoin is a free open source peer-to-peer electronic cash system that is
+kh69coin is a free open source peer-to-peer electronic cash system that is
 completely decentralized, without the need for a central server or trusted
 parties.  Users hold the crypto keys to their own money and transact directly
 with each other, with the help of a P2P network to check for double-spending.
@@ -11,13 +11,13 @@ with each other, with the help of a P2P network to check for double-spending.
 
 Setup
 -----
-Unpack the files into a directory and run litecoin-qt.exe.
+Unpack the files into a directory and run kh69coin-qt.exe.
 
-Litecoin Core is the original Litecoin client and it builds the backbone of the network.
-However, it downloads and stores the entire history of Litecoin transactions;
+kh69coin Core is the original kh69coin client and it builds the backbone of the network.
+However, it downloads and stores the entire history of kh69coin transactions;
 depending on the speed of your computer and network connection, the synchronization
 process can take anywhere from a few hours to a day or more.
 
-See the litecoin wiki at:
-  https://litecoin.info/
+See the kh69coin wiki at:
+  https://kh69coin.info/
 for more help and information.
