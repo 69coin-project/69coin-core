@@ -41,8 +41,8 @@ QString BitcoinUnits::longName(int unit)
     switch(unit)
     {
     case BTC: return QString("69C");
-    case mBTC: return QString("u69c");
-    case uBTC: return QString("n69c");
+    case mBTC: return QString("m69c");
+    case uBTC: return QString("u69c");
     default: return QString("???");
     }
 }
@@ -61,8 +61,8 @@ QString BitcoinUnits::description(int unit)
     switch(unit)
     {
     case BTC: return QString("Kh69coins");
-    case mBTC: return QString("Lites (1 / 1" THIN_SP_UTF8 "000)");
-    case uBTC: return QString("Photons (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+    case mBTC: return QString("m69c (1 / 1" THIN_SP_UTF8 "000)");
+    case uBTC: return QString("u69c (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
     default: return QString("???");
     }
 }
