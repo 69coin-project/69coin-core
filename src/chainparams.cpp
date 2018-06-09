@@ -126,6 +126,7 @@ public:
         // Note that of those with the service bits flag, most only support a subset of possible options
 	
 	vSeeds.emplace_back("seed1.69coin.net", true);
+	vSeeds.emplace_back("seed2.69coin.net", true);
 	    
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,69);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
